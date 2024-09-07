@@ -1,5 +1,5 @@
 #2
-immutable_var = 1, 2.0, 3, 'a', 'b'
+immutable_var = 1, 2.0, 3, 'baby'
 print(type(immutable_var))
 print(immutable_var)
 
@@ -9,11 +9,8 @@ print(immutable_var)
 # после его создания
 
 #4
-mutable_list = 'a', 'b', 1, 2.0, 3
-print(type(str(mutable_list)))
-print(mutable_list)
-mutable_list = (['a','b'], 1, 2, 3)
-print(mutable_list)
-mutable_list = (['a','b'], 1, 2, 3)
-mutable_list [0][0] = 4
+mutable_list = ['baby', [1, 2, 3]]
+mutable_list [1] = 'aplle'
+mutable_list [1] = 2.0
+print(type(mutable_list))
 print(mutable_list)
